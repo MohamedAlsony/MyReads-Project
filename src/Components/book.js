@@ -10,8 +10,10 @@ class Book extends React.Component {
       // check wheather this imageLinks have thumbnail or not
       if ("thumbnail" in this.props.book.imageLinks){
 thumbnail = this.props.book.imageLinks.thumbnail;
+
       }
     }
+
     return (
         <div className="book">
           <div className="book-top">
